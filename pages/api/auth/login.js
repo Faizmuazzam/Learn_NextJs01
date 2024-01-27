@@ -2,6 +2,7 @@ import db from '../../../libs/db'
 import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 
+
 const handlerLogin = async (req, res) => {
 
   if (req.method !== 'POST') return res.status(405).end();
