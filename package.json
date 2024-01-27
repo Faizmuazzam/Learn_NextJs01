@@ -1,0 +1,20 @@
+{
+  "name": "learn-01",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "knex": "knex"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "mysql": "github:mysqljs/mysql",
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
