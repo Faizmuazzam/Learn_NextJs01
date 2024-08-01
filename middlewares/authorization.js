@@ -13,7 +13,7 @@ const authorization = async (req, res) => {
     if (authType !== 'Bearer') return res.status(401).end();
   
     const verify = jwt.verify(authToken, 'secret', (err, decode) => {
-      if (err) return res.status(401).end();
+      if (err) return res.status(403).end();
       return resolve(decode);
     });
   
